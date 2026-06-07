@@ -1,0 +1,22 @@
+# Ignorar el entorno virtual de Python
+venv/
+.venv/
+env/
+
+#  VARIABLES DE ENTORNO Y CONTRASENIAS
+.env
+
+# Archivos viejos o de respaldo que ya no se usan
+settings_old.py
+
+# Archivos subidos por los usuarios (fotos de cortes, etc.)
+media/
+
+# Ignorar la base de datos local por las dudas
+*.sqlite3
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+*/__pycache__/
+*/*/__pycache__/

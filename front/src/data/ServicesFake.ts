@@ -1,0 +1,31 @@
+export const ServiciosFake = [
+  {
+    id: 1,
+    id_barbero: 1,
+    nombre: "Corte de cabello",
+    descripcion: "Corte moderno adaptado a tu estilo",
+    precio: 8000,
+    duracion: 30,
+    destacado: true,
+    imagen: "/ImgServices/corte_cabello.png",
+  },
+  {
+    id: 2,
+    id_barbero: 1,
+    nombre: "Barba",
+    descripcion: "Perfilado, diseño y hidratación de barba",
+    precio: 5000,
+    duracion: 20,
+    imagen: "/ImgServices/barba.png",
+  },
+  {
+    id: 3,
+    id_barbero: 2,
+    nombre: "Colorista",
+    descripcion: "Coloración profesional de primera línea",
+    precio: 11000,
+    duracion: 45,
+    destacado: true,
+    imagen: "/ImgServices/colorista.png",
+  },
+];
